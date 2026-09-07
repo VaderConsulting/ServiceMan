@@ -1,6 +1,6 @@
 # ServiceMan
 
-VB6 Windows service manager WinForms app for listing and controlling Windows services.
+VB6 ServiceMan (`ServiceMan.exe`) that connects to a computer via WMI (`Win32_Service`), lists services, and can Start / Stop / Pause / Continue with manual or auto refresh. Open `ServiceMan.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 Windows service manager WinForms app for listing and controlling Windows ser
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `ServiceMan` (`ServiceMan.vbp`) | VB6 | WinForms exe | ServiceMan |
+| `ServiceMan` (`ServiceMan.vbp`) | VB6 | WinForms exe | Remote/local Windows service list and control |
 
 ## How to open
 
